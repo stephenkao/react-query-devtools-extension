@@ -13,5 +13,9 @@
     "default_title": "bloop",
     "default_popup": "index.html"
   },
-  "permissions": []
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
 }
